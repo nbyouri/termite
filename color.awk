@@ -2,6 +2,7 @@
 # This is a Xdefaults 
 # color to termite converter.
 # ./color.awk >> .termite.conf
+# by Youri Mouton (yrmt)
 
 BEGIN {
     print "[colors]"
