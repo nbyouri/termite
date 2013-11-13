@@ -1,5 +1,5 @@
-#Termite on Mac OS X: (tested on 10.8.3)
-# Mavericks support coming soon.
+#Termite on Mac OS X: (tested on 10.9)
+## Updated for Mavericks
 
 ##First, you have to install the patched vte:
 
@@ -7,11 +7,12 @@
 - gtk3
 
 ###Build:
-``tar xzf working-vte.tar.gz``    
-``cd vte-0.32.2-old``    
-``./configure --prefix=/opt/local --disable-python --disable-Bsymbolic``    
+``tar xzf patched-vte.tar.gz``    
+``cd vte-0.34.9``    
+``./configure --prefix=/usr/pkg --disable-python --disable-Bsymbolic``    
 ``make``      
 ``sudo make install``       
+``cp ../vte-2.90.pc /usr/pkg/lib/pkgconfig``    
 
 
 ###Fetching termite:
