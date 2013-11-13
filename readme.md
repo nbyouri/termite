@@ -8,7 +8,7 @@
 
 ###Build:
 ``tar xzf patched-vte.tar.gz``    
-``cd vte-0.34.9``    
+``cd vte-0.32.2-old``    
 ``./configure --prefix=/usr/pkg --disable-python --disable-Bsymbolic``    
 ``make``      
 ``sudo make install``       
