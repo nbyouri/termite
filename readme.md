@@ -1,6 +1,9 @@
 #Termite on Mac OS X: (tested on 10.9)
 ## Updated for Mavericks
 
+#### Install it from the saveosx pkgin repository!
+> `sudo pkgin -y in termite-git`    
+
 ##First, you have to install the patched vte:
 
 ###Dependencies:
