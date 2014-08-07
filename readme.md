@@ -1,4 +1,4 @@
-#Termite on Mac OS X: (tested on 10.9)
+#Termite on Mac OS X: (tested on 10.{6,7,8,9,10})
 ## Updated for Mavericks
 
 #### Install it from the saveosx pkgin repository!
